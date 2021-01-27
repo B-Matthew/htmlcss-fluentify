@@ -13,12 +13,52 @@ body {
 
 /* Regole Header */
 header {
-  /* debug */
   height: 70px;
-  background-color: pink;
+  background-color: #0c325a;
+  padding-top: 10px;
 }
 
+#logo {
+  vertical-align: baseline;
+  padding-right: 30px;
+}
 
+nav {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+#a-right {
+  margin-left: 250px;
+}
+
+#login-button {
+  margin: 0 20px;
+  padding: 7px 25px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+}
+
+#green-button {
+  padding: 7px 12px;
+  background-color: #7cbb02;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+}
 /* Regole Main */
 
 .container {
@@ -28,9 +68,31 @@ header {
 
 .jumbo {
   /* debug */
-  height: 350px;
-  background-color: blue;
+  height: 450px;
+  background-color: #0c325a;
+  position: relative;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
+
+.text-jumbo {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 30%;
+}
+
+#jumbo-button {
+  background-color: #7cbb02;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+
+
 
 .greybox {
   /* debug */
