@@ -67,7 +67,7 @@ ul li {
 }
 
 .jumbo {
-  /* debug */
+
   height: 450px;
   background-color: #0c325a;
   position: relative;
@@ -92,12 +92,17 @@ ul li {
   padding: 15px 15px;
 }
 
-
-
 .greybox {
-  /* debug */
-  height: 100px;
-  background-color: grey;
+  height: 150px;
+  background-color: lightgrey;
+  padding: 45px;
+  text-align: center;
+}
+
+.greybox p {
+  color: #808080;
+  padding-top: 18px;
+  font-size: 17px;
 }
 
 .row {
@@ -115,10 +120,57 @@ ul li {
 .aside {
   float: left;
   /* debug */
-  height: 300px;
+
   width: 31%;
-  background-color: red;
 }
+
+
+.img1 {
+  background-image: url("../img/profile.svg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  background-image: url("../img/doc.svg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.img3 {
+  background-image: url("../img/computer.svg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.text-aside {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.aside h1 {
+  color: green;
+}
+
+hr {
+  width: 70px;
+  background-color: grey;
+  height: 1px;
+  border: transparent;
+  margin: 20px 40%;
+}
+
+.aside p {
+  font-size: 15px;
+  color: #808080;
+}
+
 
 .center-block {
   float: left;
