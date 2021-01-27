@@ -12,11 +12,85 @@ body {
 }
 
 /* Regole Header */
-
+header {
+  /* debug */
+  height: 70px;
+  background-color: pink;
+}
 
 
 /* Regole Main */
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.jumbo {
+  /* debug */
+  height: 350px;
+  background-color: blue;
+}
+
+.greybox {
+  /* debug */
+  height: 100px;
+  background-color: grey;
+}
+
+.row {
+  margin: 20px 0;
+  /* debug   */
+  background-color: yellow;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.aside {
+  float: left;
+  /* debug */
+  height: 300px;
+  width: 31%;
+  background-color: red;
+}
+
+.center-block {
+  float: left;
+  /* debug */
+  height: 300px;
+  width: 31%;
+  background-color: blue;
+  margin: 0 3%;
+}
+
+.left1 {
+  float: left;
+  /* debug */
+  height: 300px;
+  background-color: blue;
+  width: 45%;
+  margin: 20px 0;
+}
+
+.left {
+  float: left;
+  /* debug */
+  height: 300px;
+  background-color: purple;
+  width: 45%;
+  margin: 20px 5%;
+}
+
 
 
 /* Regole Footer */
+
+footer {
+  /* debug */
+  height: 150px;
+  background-color: grey;
+}
